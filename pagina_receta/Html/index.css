@@ -1,0 +1,24 @@
+.slides {
+    display: flex;
+    flex-wrap: wrap; /* Permite que las imágenes se ajusten a la siguiente línea si no caben en una sola fila */
+    justify-content: center; /* Centra las imágenes horizontalmente */
+    gap: 10px; /* Espacio entre las imágenes */
+}
+
+.slides img {
+    width: 20%; /* Ajusta el tamaño de las imágenes según tus necesidades */
+    height: auto; /* Mantiene la proporción de las imágenes */
+    object-fit: cover; /* Asegura que la imagen cubra el contenedor sin perder proporción */
+}
+
+.text-and-gif {
+    display: flex;
+    align-items: center; /* Alinea verticalmente el GIF y el texto */
+    gap: 10px; /* Espacio entre el GIF y el texto */
+}
+
+.text-and-gif img {
+    width: 100px; /* Ajusta el tamaño del GIF según tus necesidades */
+    height: auto; /* Mantiene la proporción del GIF */
+    object-fit: cover; /* Asegura que el GIF cubra el contenedor sin perder proporción */
+}
